@@ -63,7 +63,7 @@ $(function() {
         var gender = $("#gender").val();
         var exampleFormControlTextarea1 = $("#exampleFormControlTextarea1").val();
         
-        if(firstname != '' || lastname !='' || email !='' || password != '' || phonenumber != '' || gender != '' || exampleFormControlTextarea1 != ''){
+        if(firstname != '' && lastname !='' && email !='' && password != '' && phonenumber != '' && gender != '' && exampleFormControlTextarea1 != ''){
             swal({
                 icon: "success",
                 title: "Successfully Registered!",

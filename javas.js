@@ -66,7 +66,7 @@ $(function() {
         if(firstname != '' || lastname !='' || email !='' || password != '' || phonenumber != '' || gender != '' || exampleFormControlTextarea1 != ''){
             swal({
                 icon: "success",
-                title: "Başarılı Bir Şekilde Kayıt Yapıldı!",
+                title: "Successfully Registered!",
                 timer: "10000",
 
               });
